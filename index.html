@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Illes.web</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ 
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <div class="container">
+  <h1>Illes.web</h1>
+  <p>Desarrollo de páginas web</p>
+
+  <form id="formulario" action="">
+    
+    <input 
+      type="text" 
+      id="nombre" 
+      placeholder="Tu nombre"
+      required
+    >
+
+    <br><br>
+
+    <input 
+      type="email" 
+      id="correo" 
+      placeholder="Tu correo"
+      required
+    >
+
+    <br><br>
+
+    <textarea 
+      id="mensaje" 
+      placeholder="Tu mensaje"
+      required
+    ></textarea>
+
+    <br><br>
+
+    <button type="submit">Enviar</button>
+
+  </form>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
+
